@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import Image from 'next/image';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -34,6 +35,29 @@ export default function Home ({ allPostsData }) {
         <p>
           Please let me know when we can discuss my profile in more detail.
         </p>
+      </section>
+
+      <section className={utilStyles.icons}>
+        <Link href="https://www.linkedin.com/in/mariia-paraketsova-2a3513154/">
+          <Image
+            priority
+            src="/images/icons8-linkedin.svg"
+            // className={utilStyles.borderCircle}
+            height={64}
+            width={64}
+            alt="linkedin-icon"
+          />
+        </Link>
+        <Link href="https://github.com/paraketsova">
+          <Image
+            priority
+            src="/images/icons8-github.svg"
+            // className={utilStyles.borderCircle}
+            height={64}
+            width={64}
+            alt="github-icon"
+          />
+        </Link>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
