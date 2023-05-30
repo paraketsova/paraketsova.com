@@ -61,7 +61,7 @@ export default function Home ({ allPostsData }) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>About me</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -78,8 +78,4 @@ export default function Home ({ allPostsData }) {
   );
 }
 
-// Try visiting these pages:
-//
-// http://localhost:3000/posts/ssg-ssr
-// http://localhost:3000/posts/pre-rendering
 
