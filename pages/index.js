@@ -23,7 +23,7 @@ export default function Home ({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          My name is Mariia. I live in Stockholm and I am a Fullstack Web Developer with Frontend focus
+          My name is Mariia. I live in Stockholm and I am a Fullstack Web Developer with Frontend focus.
         </p>
         <p>
           I have graduated from <a href="https://nackademin.se/">Nackademin YHR</a> (Full Stack Web Development)

@@ -1,1 +1,1 @@
-This is a starter template for [Learn Nextpuzzle.js](https://nextjs.org/learn).
+This is Mariia Paraketsova personal site.
