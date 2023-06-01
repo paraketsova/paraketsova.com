@@ -60,6 +60,10 @@ export default function Home ({ allPostsData }) {
         </Link>
       </section>
 
+    {/*  <section className={pagesLinks}>
+
+      </section>
+*/}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>About me</h2>
         <ul className={utilStyles.list}>
