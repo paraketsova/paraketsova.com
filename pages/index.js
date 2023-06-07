@@ -30,7 +30,10 @@ export default function Home ({ allPostsData }) {
           and finished my 6-month internship as a software developer in <a href="https://www.scania.com/group/en/home.html">Scania</a>.
         </p>
         <p>
-          Also, before switching to web development, I got an Engineer’s degree in Chemical Technology, and I have a few years of experience in project management (but it was not IT), which has helped me develop good analytical and problem solving skills. Now I’m looking for a permanent job position
+          Now I work as a volunteer web developer on a a small-scale open-source social network <a href="https://github.com/clbn/freefeed-delta">FreeFeed.net.</a>
+        </p>
+        <p>
+          Also, before switching to web development, I got an Engineer’s degree in Chemical Technology, and I have a few years of experience in <a href="https://gammaswiss.com/industrial-solutions/">project management (but it was not IT)</a>, which has helped me develop good analytical and problem solving skills. Now I’m looking for a permanent job position
         </p>
         <p>
           Please let me know when we can discuss my profile in more detail.

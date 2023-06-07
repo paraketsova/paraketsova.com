@@ -9,3 +9,5 @@ Nextpuzzle.js has two forms of pre-rendering: **Static Generation** and **Server
 - **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
 
 Importantly, Nextpuzzle.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Nextpuzzle.js app by using Static Generation for most pages and using Server-side Rendering for others.
+
+Here is my new sudoku project [![(../images/icons8-sudoku.svg)](../images/icons8-sudoku.png)](/sudoku)
