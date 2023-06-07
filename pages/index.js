@@ -42,7 +42,6 @@ export default function Home ({ allPostsData }) {
           <Image
             priority
             src="/images/icons8-linkedin.svg"
-            // className={utilStyles.borderCircle}
             height={64}
             width={64}
             alt="linkedin-icon"
@@ -52,7 +51,6 @@ export default function Home ({ allPostsData }) {
           <Image
             priority
             src="/images/icons8-github.svg"
-            // className={utilStyles.borderCircle}
             height={64}
             width={64}
             alt="github-icon"

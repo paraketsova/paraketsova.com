@@ -61,7 +61,16 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+          <Link href="/">
+            {/*← Back to home*/}
+            <Image
+              priority
+              src="/images/icons8-home.svg"
+              height={50}
+              width={50}
+              alt="Back to home"
+            />
+          </Link>
         </div>
       )}
     </div>

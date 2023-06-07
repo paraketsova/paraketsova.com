@@ -6,7 +6,7 @@ export default function Custom404() {
   return (
     <div className={styles.container}>
       <h1>Look like you're lost</h1>
-      <p>the page you are looking for not available!</p>
+      <p>the page you are looking for is not available!</p>
       <Image
         priority
         src="/images/error-img.gif"
