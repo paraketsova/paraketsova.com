@@ -59,6 +59,15 @@ export default function Home ({ allPostsData }) {
             alt="github-icon"
           />
         </Link>
+        <Link href="mailto:paraketsova@email.com">
+          <Image
+            priority
+            src="/images/icons8-mail.svg"
+            height={64}
+            width={64}
+            alt="github-icon"
+          />
+        </Link>
       </section>
 
     {/*  <section className={pagesLinks}>
