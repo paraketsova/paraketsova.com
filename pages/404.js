@@ -20,3 +20,5 @@ export default function Custom404() {
     </div>
   )
 }
+
+//source of the gif - https://codepen.io/affectionatelettuce
