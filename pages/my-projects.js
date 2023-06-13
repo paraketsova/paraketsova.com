@@ -46,11 +46,35 @@ export default function Home ({ allPostsData }) {
             />
             <p className={utilStyles.titleProject}>My degree project</p>
           </Link>
-          <p className={utilStyles.projectDescription}>The degree project for <b>Web Developers fullstack
-            open source at Nackademin</b>, which was implemented in collaboration with <b>Scania IZF HR</b></p>
+          <p className={utilStyles.projectDescription}>for <b>Nackademin</b> + <b>Scania</b></p>
+          <p className={utilStyles.projectDescription}><b>Angular TypeScript C# NodeJS MySQL SDDS SCSS</b></p>
         </div>
 
-
+        {/* === FREEFEED === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://gamma.freefeed.net/">
+            <Image
+              className={utilStyles.projectIcon}
+              priority
+              src="/images/ff.png"
+              height={32}
+              width={32}
+              alt="quiz-icon"
+            />
+            <p className={utilStyles.titleProject}>FreeFeed</p>
+          </Link>
+          <p className={utilStyles.projectDescription}><b>NextJs TypeScript</b></p>
+          <p className={utilStyles.projectDescription}>client for social network</p>
+          <Link href="https://github.com/clbn/freefeed-delta">
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
 
         {/* === STAR-WARS-APP === */}
         <div className={utilStyles.projectItem}>
@@ -77,6 +101,7 @@ export default function Home ({ allPostsData }) {
             />
           </Link>
         </div>
+
 
         {/* === JAVASCRIPT QUIZ === */}
         <div className={utilStyles.projectItem}>
