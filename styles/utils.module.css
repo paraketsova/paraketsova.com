@@ -54,3 +54,67 @@
 .icons {
   display: flex;
 }
+
+.icons8Link {
+  color: #eaeaea;
+}
+
+.icons8Link > a {
+  color: #eaeaea;
+}
+
+/* My-projects */
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+}
+
+.projectItem {
+  border: solid 1px rebeccapurple;
+  text-align: center;
+  width: 10em;
+  height: 10em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.titleProject {
+  text-decoration: none;
+  color: rebeccapurple;
+  font-weight: bold;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 0.9em;
+}
+.projectLink {
+  text-decoration: none;
+  color: rebeccapurple;
+  text-align: center;
+}
+
+.projectDescription {
+  font-size: 0.5em;
+  margin-top: 0.6em;
+}
+
+.projects div:hover {
+  text-decoration: none;
+  color: black;
+  background-color: lightgrey;
+  box-shadow: 0.8em 0.8em 0.8em #444;
+  border-color: #676768;
+}
+
+.projects div:hover .projectLink p:hover,
+.projects div:hover .projectLink image:hover,
+.projects div:hover .projectLink:hover
+{
+  text-decoration: none;
+  color: white;
+}
+

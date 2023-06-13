@@ -73,8 +73,21 @@ export default function Home ({ allPostsData }) {
         </Link>
       </section>
 
+      <section className={`${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>My previous projects</h2>
+        <Link href={`/my-projects`} className={utilStyles.headingLg}>
+          <Image
+            priority
+            src="/images/icons8-projects-64.png"
+            height={64}
+            width={64}
+            alt="github-icon"
+          />
+        </Link>
+      </section>
+
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>About me</h2>
+        <h2 className={utilStyles.headingLg}>My news</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -87,6 +100,9 @@ export default function Home ({ allPostsData }) {
           ))}
         </ul>
       </section>
+
+      <p className={utilStyles.icons8Link}>icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+
     </Layout>
   );
 }
