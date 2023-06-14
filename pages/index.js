@@ -26,7 +26,8 @@ export default function Home ({ allPostsData }) {
           Hi! My name is Mariia. I live in Stockholm and I am a <b>Fullstack Web Developer</b> with Frontend focus.
         </p>
         <p>
-          I have graduated from <a href="https://nackademin.se/utbildningar/webbutvecklare-fullstack-open-source/">Nackademin YHR</a> (Full Stack Web Development)
+          I have <a href="/images/Examensbevis-mariia-paraketsova-webbutvecklare-fullstack-open-source.pdf">graduated </a>
+          from <a href="https://nackademin.se/utbildningar/webbutvecklare-fullstack-open-source/">Nackademin YH</a> (Full Stack Web Development)
           and finished my 6-month internship as a software developer in <a href="https://docs.google.com/document/d/e/2PACX-1vRNNVipVs9_Uv2qFufNKixW7sy0eX23U3B2j1SEa0wXd3pPDjdttWfvrIKVAxbkJqHx-TZndSuaKFUF/pub">Scania</a>.
         </p>
         <p>

@@ -1,11 +1,9 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
+import Layout, from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
-import Date from '../components/date';
 import Image from 'next/image';
-import styles from '../components/layout.module.css';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -16,7 +14,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home ({ allPostsData }) {
+export default function Home () {
   return (
     <Layout home>
       <Head>
@@ -31,13 +29,12 @@ export default function Home ({ allPostsData }) {
         </p>
       </section>
 
-      <section className={utilStyles.projects}>
+      <section className={utilStyles.projectsCards}>
 
         {/* === DEGREE PROJECT === */}
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="https://docs.google.com/document/d/e/2PACX-1vRNNVipVs9_Uv2qFufNKixW7sy0eX23U3B2j1SEa0wXd3pPDjdttWfvrIKVAxbkJqHx-TZndSuaKFUF/pub">
             <Image
-              className={utilStyles.projectIcon}
               priority
               src="/images/icons8-diploma-64.png"
               height={32}
@@ -54,11 +51,10 @@ export default function Home ({ allPostsData }) {
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="https://gamma.freefeed.net/">
             <Image
-              className={utilStyles.projectIcon}
               priority
-              src="/images/ff.png"
-              height={32}
-              width={32}
+              src="/images/icon-ff.png"
+              height={25}
+              width={25}
               alt="quiz-icon"
             />
             <p className={utilStyles.titleProject}>FreeFeed</p>
@@ -80,7 +76,6 @@ export default function Home ({ allPostsData }) {
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="https://paraketsova.github.io/star-wars-app">
             <Image
-              className={utilStyles.projectIcon}
               priority
               src="/images/icons8-yoda-64.png"
               height={32}
@@ -107,7 +102,6 @@ export default function Home ({ allPostsData }) {
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="https://paraketsova.github.io/QUIZ">
             <Image
-              className={utilStyles.projectIcon}
               priority
               src="/images/icons8-quiz-64.png"
               height={32}
@@ -133,7 +127,6 @@ export default function Home ({ allPostsData }) {
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="https://paraketsova.github.io/ship_animation">
             <Image
-              className={utilStyles.projectIcon}
               priority
               src="/images/icons8-boat-64.png"
               height={32}
@@ -154,10 +147,9 @@ export default function Home ({ allPostsData }) {
             />
           </Link>
         </div>
-
       </section>
 
-      <section className={utilStyles.backToHome}>
+      <section>
         <Link href="/">
           {/*← Back to home*/}
           <Image
