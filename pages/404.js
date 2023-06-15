@@ -11,8 +11,8 @@ export default function Custom404() {
         priority
         src="/images/error-img.gif"
         alt="error-404"
-        height={600}
-        width={1200}
+        height={700}
+        width={900}
       />
       <div className={styles.backToHome}>
         <Link href="/">← Back to home</Link>

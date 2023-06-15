@@ -29,8 +29,8 @@ export default function Home () {
         </p>
       </section>
 
+      {/* === PROJECTS FOR DEMONSTRATION === */}
       <section className={utilStyles.projectsCards}>
-
         {/* === DEGREE PROJECT === */}
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="https://docs.google.com/document/d/e/2PACX-1vRNNVipVs9_Uv2qFufNKixW7sy0eX23U3B2j1SEa0wXd3pPDjdttWfvrIKVAxbkJqHx-TZndSuaKFUF/pub">
@@ -53,8 +53,8 @@ export default function Home () {
             <Image
               priority
               src="/images/icon-ff.png"
-              height={25}
-              width={25}
+              height={32}
+              width={32}
               alt="quiz-icon"
             />
             <p className={utilStyles.titleProject}>FreeFeed</p>
@@ -96,7 +96,6 @@ export default function Home () {
             />
           </Link>
         </div>
-
 
         {/* === JAVASCRIPT QUIZ === */}
         <div className={utilStyles.projectItem}>
@@ -147,6 +146,147 @@ export default function Home () {
             />
           </Link>
         </div>
+
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://paraketsova.github.io/">
+            <Image
+              priority
+              src="/favicon.ico"
+              height={32}
+              width={32}
+              alt="pony-icon"
+            />
+            <p className={utilStyles.titleProject}>Old personal page</p>
+          </Link>
+          <p className={utilStyles.projectDescription}><b>CSS HTML</b></p>
+          <p className={utilStyles.projectDescription}>Individual assignment</p>
+          <Link href="https://github.com/paraketsova/paraketsova.github.io">
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
+        {/* === SLACK CLONE === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/slack-clone-node-mongodb">
+            <p className={utilStyles.titleProject}>Slack clone</p>
+            <p className={utilStyles.projectDescription}><b>Node.js+MongoDB</b></p>
+            <p className={utilStyles.projectDescription}>Individual assignment</p>
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
+        {/* === cats and doge webshop === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/mern-catsanddogs">
+            <p className={utilStyles.titleProject}>Cats and Dogs</p>
+            <p className={utilStyles.projectDescription}><b>MERN Full-Stack Webshop</b></p>
+            <p className={utilStyles.projectDescription}>Group assignment</p>
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
+        {/* === giant-squid-bingo === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/giant-squid-bingo/tree/master">
+            <p className={utilStyles.titleProject}>Squid-bingo</p>
+            <p className={utilStyles.projectDescription}><b>JavaScript</b></p>
+            <p className={utilStyles.projectDescription}>Programming test</p>
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
+        {/* === Angular todoApp === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/angular-todo-app">
+            <p className={utilStyles.titleProject}>Angular TodoApp</p>
+            <p className={utilStyles.projectDescription}><b>Angular CLI version 13.0.2.</b></p>
+            <p className={utilStyles.projectDescription}>Group assignment</p>
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
+        {/* === fakestore PHP === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="/documents/WEBB20-Backend-2-PHP-MARIIA-PARAKETSOVA-Uppgift-03.pdf">
+            <p className={utilStyles.titleProject}>Fakestore PHP</p>
+            <p className={utilStyles.projectDescription}><b>PHP mySQL Bootstrap CSS</b></p>
+            <p className={utilStyles.projectDescription}>Group assignment</p>
+          </Link>
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/fakestore_php">
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
+        {/* === RESTful API PHP === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="/documents/WEBB20-Backend-Uppgift-02-MARIIA-PARAKETSOVA.pdf">
+            <p className={utilStyles.titleProject}>RESTful API for FakeStore</p>
+            <p className={utilStyles.projectDescription}><b>PHP</b></p>
+            <p className={utilStyles.projectDescription}>Individual assignment</p>
+          </Link>
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/RESTful_API_php">
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
+        {/* === $tockmarket === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/market">
+            <p className={utilStyles.titleProject}>Market app</p>
+            <p className={utilStyles.projectDescription}><b>React</b></p>
+            <p className={utilStyles.projectDescription}>Group assignment</p>
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
       </section>
 
       <section>

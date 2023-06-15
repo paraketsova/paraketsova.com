@@ -75,11 +75,16 @@
 
 .projectItem {
   border: solid 1px rebeccapurple;
+  text-decoration: none;
   text-align: center;
   width: 10em;
   height: 10em;
   margin-bottom: 1em;
   padding: 1em;
+}
+
+.projectItem:hover {
+  text-decoration: none;
 }
 
 .titleProject {
@@ -97,22 +102,26 @@
   text-align: center;
 }
 
+.projectLink img,
+.projectItem img {
+  display: inline-block;
+}
+
 .projectDescription {
   font-size: 0.5em;
   margin-top: 0.6em;
 }
 
 .projectsCards div:hover {
-  text-decoration: none;
   color: black;
   background-color: lightgrey;
   box-shadow: 0.8em 0.8em 0.8em #444;
   border-color: #676768;
 }
 
-.projects div:hover .projectLink p:hover,
-.projects div:hover .projectLink image:hover,
-.projects div:hover .projectLink:hover
+.projectsCards div:hover .projectLink p:hover,
+.projectsCards div:hover .projectLink img:hover,
+.projectsCards div:hover .projectLink:hover
 {
   text-decoration: none;
   color: white;
