@@ -134,3 +134,8 @@
   columns: 3;
 }
 
+.imageGallery {
+  display: inline-block;
+  margin: 0.5em;
+}
+
