@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Mariia Paraketsova';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'paraketsova';
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Nextpuzzle.js"
+          content="personal site"
         />
         <meta
           property="og:image"

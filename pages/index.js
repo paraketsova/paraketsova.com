@@ -63,7 +63,7 @@ export default function Home ({ allPostsData }) {
             alt="github-icon"
           />
         </Link>
-        <Link href="mailto:paraketsova@email.com">
+        <Link href="mailto:paraketsova@gmail.com">
           <Image
             priority
             src="/images/icons8-mail.svg"
@@ -79,7 +79,7 @@ export default function Home ({ allPostsData }) {
         <Link href={`/my-projects`} className={utilStyles.headingLg}>
           <Image
             priority
-            src="/images/icons8-projects-64.png"
+            src="/images/icons8-coding-64.png"
             height={64}
             width={64}
             alt="github-icon"

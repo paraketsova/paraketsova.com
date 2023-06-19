@@ -17,16 +17,14 @@ export async function getStaticProps() {
 export default function Home () {
   return (
     <Layout home>
-      <Head>
-        <title>My projects</title>
-      </Head>
+      <section className={utilStyles.headingXl}>
+        <p>My previous projects</p>
+      </section>
       <section className={utilStyles.headingMd}>
-        <p>
-          This is my previous projects.
-        </p>
         <p>
           Most of them were made while studying at Nackademin YH and are individual or group projects created in JavaScript, Node.js, PHP, Angular, TypeScript, C#.
         </p>
+        <p>Projects have links to online pages, projects' descriptions and repositories on GitHub.</p>
       </section>
 
       {/* === PROJECTS FOR DEMONSTRATION === */}
@@ -205,7 +203,7 @@ export default function Home () {
 
         {/* === giant-squid-bingo === */}
         <div className={utilStyles.projectItem}>
-          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/giant-squid-bingo/tree/master">
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/giant-squid-bingo">
             <p className={utilStyles.titleProject}>Squid-bingo</p>
             <p className={utilStyles.projectDescription}><b>JavaScript</b></p>
             <p className={utilStyles.projectDescription}>Programming test</p>

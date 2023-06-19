@@ -127,3 +127,10 @@
   color: white;
 }
 
+/* My coding skills */
+
+.skillsList {
+  list-style: none;
+  columns: 3;
+}
+
