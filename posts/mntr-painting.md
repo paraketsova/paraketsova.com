@@ -9,7 +9,7 @@ That was it. I was hooked.
 
 I am passionate about painting miniature figures and game items, mostly in 28mm format. Sometimes I "speed paint", sometimes I spend more time and with more technical painting methods on my "minis".
 
-Here is several of my minis [![(../images/icons8-brush-64.png)](../images/icons8-brush-64.png)](/paint-gallery)
+Here is a gallery of several of my miniatures [![(../images/icons8-brush-64.png)](../images/icons8-brush-64.png)](/paint-gallery)
 Here is my Instagram [![(../images/icons8-instagram.svg)](../images/icons8-instagram.svg)](https://www.instagram.com/ponyminis/)
 
 Maybe now I'm just a beginner artist, but I'm trying to achieve a professional level of my work.

@@ -2,25 +2,35 @@ import Image from 'next/image';
 import Layout, from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import Date from '../components/date';
 
 const gallery = [
-  "/paint-gallery/Barbarian-1.jpg",
-  "/paint-gallery/Barbarian-2.jpg",
-  "/paint-gallery/Barbarian-3.jpg",
-  "/paint-gallery/Iriya-1.jpg",
-  "/paint-gallery/Abomination-1.jpg",
-  "/paint-gallery/Abomination-2.jpg",
-  "/paint-gallery/Abomination-3.jpg",
-  "/paint-gallery/Abomination-4.jpg"
+  "alch-bench-1.jpg",
+  "alch-bench-2.jpg",
+  "Barbarian-1.jpg",
+  "Barbarian-2.jpg",
+  "Barbarian-3.jpg",
+  "elf-1.jpg",
+  "bookshelf-1.jpg",
+  "bookshelf-2.jpg",
+  "Iriya-1.jpg",
+  "fireplace-1.jpg",
+  "fireplace-2.jpg",
+  "dwarf-1.jpg",
+  "dwarf-2.jpg",
+  "dwarf-3.jpg",
+  "Abomination-1.jpg",
+  "Abomination-2.jpg",
+  "Abomination-3.jpg",
+  "Abomination-4.jpg",
+  "weapon-rack.jpg",
 ];
 
 const imageGallery = gallery.map((src) => (
   <Image
     className={utilStyles.imageGallery}
     priority
-    key={src}
-    src={src}
+    key={"/paint-gallery/" + src}
+    src={"/paint-gallery/" + src}
     width="500"
     height="500"
     alt={`gallery`}
@@ -30,19 +40,15 @@ const imageGallery = gallery.map((src) => (
 
 export default function GalleryPage () {
   return (
-
     <Layout home>
       <section className={utilStyles.headingXl}>
         <p>My gallery</p>
       </section>
       <section className={utilStyles.headingMd}>
-
-        <p>There are several of my painted miniatures.</p>
+        <p>My painted miniatures (28mm).</p>
       </section>
 
-      <div>
-        {imageGallery}
-      </div>
+      {imageGallery}
 
       <section>
         <Link href="/">

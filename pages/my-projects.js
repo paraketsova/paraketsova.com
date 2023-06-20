@@ -14,7 +14,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home () {
+export default function Projects () {
   return (
     <Layout home>
       <section className={utilStyles.headingXl}>
@@ -284,7 +284,6 @@ export default function Home () {
             />
           </Link>
         </div>
-
       </section>
 
       <section>
