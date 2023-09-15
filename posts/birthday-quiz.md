@@ -1,5 +1,5 @@
 ---
-title: 'My new project'
+title: 'My new project - Birthday Quiz game'
 date: '2023-08-08'
 ---
 Here is my new project - Birthday Quiz.
