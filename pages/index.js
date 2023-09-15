@@ -23,7 +23,7 @@ export default function Home ({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi! My name is Mariia. I live in Stockholm and I am a <b>Fullstack Web Developer</b> with Frontend focus.
+          Hi! My name is Mariia. I live in Stockholm and I am a <b>Fullstack Web Developer</b> with Frontend focus. Now I’m looking for a permanent job position.
         </p>
         <p>
           I have <a href="/documents/Examensbevis-mariia-paraketsova-webbutvecklare-fullstack-open-source.pdf">graduated </a>
@@ -37,7 +37,7 @@ export default function Home ({ allPostsData }) {
         <p>
           Also, before switching to web development, I got an Engineer’s degree in Chemical Technology, and I have a few years
           of experience in <a href="https://gammaswiss.com/industrial-solutions/">project management (but it was not IT)</a>, which has
-          helped me develop good analytical and problem solving skills. Now I’m looking for a permanent job position.
+          helped me develop good analytical and problem solving skills.
         </p>
         <p>
           Please let me know when we can discuss my profile in more detail.
