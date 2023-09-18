@@ -70,6 +70,31 @@ export default function Projects () {
           </Link>
         </div>
 
+        {/* === BIRTHDAY QUIZ === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://paraketsova.github.io/birthday-quiz/">
+            <Image
+              priority
+              src="/images/icons8-birthday-64.png"
+              height={32}
+              width={32}
+              alt="birthday-quiz-icon"
+            />
+            <p className={utilStyles.titleProject}>The Birthday Quiz</p>
+          </Link>
+          <p className={utilStyles.projectDescription}><b>JavaScript</b></p>
+          <p className={utilStyles.projectDescription}>Now it's underway</p>
+          <Link href="https://github.com/paraketsova/birthday-quiz">
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
         {/* === STAR-WARS-APP === */}
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="https://paraketsova.github.io/star-wars-app">
@@ -85,31 +110,6 @@ export default function Projects () {
           <p className={utilStyles.projectDescription}><b>React</b></p>
           <p className={utilStyles.projectDescription}>Individual assignment</p>
           <Link href="https://github.com/paraketsova/star-wars-app">
-            <Image
-              priority
-              src="/images/icons8-github.svg"
-              height={32}
-              width={32}
-              alt="github-icon"
-            />
-          </Link>
-        </div>
-
-        {/* === JAVASCRIPT QUIZ === */}
-        <div className={utilStyles.projectItem}>
-          <Link className={utilStyles.projectLink} href="https://paraketsova.github.io/QUIZ">
-            <Image
-              priority
-              src="/images/icons8-quiz-64.png"
-              height={32}
-              width={32}
-              alt="quiz-icon"
-            />
-            <p className={utilStyles.titleProject}>Quiz Game</p>
-          </Link>
-          <p className={utilStyles.projectDescription}><b>JavaScript</b></p>
-          <p className={utilStyles.projectDescription}>Individual assignment</p>
-          <Link href="https://github.com/paraketsova/QUIZ">
             <Image
               priority
               src="/images/icons8-github.svg"
@@ -145,6 +145,31 @@ export default function Projects () {
           </Link>
         </div>
 
+        {/* === JAVASCRIPT QUIZ === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://paraketsova.github.io/QUIZ">
+            <Image
+              priority
+              src="/images/icons8-quiz-64.png"
+              height={32}
+              width={32}
+              alt="quiz-icon"
+            />
+            <p className={utilStyles.titleProject}>Quiz Game</p>
+          </Link>
+          <p className={utilStyles.projectDescription}><b>JavaScript</b></p>
+          <Link href="https://github.com/paraketsova/QUIZ">
+            <Image
+              priority
+              src="/images/icons8-github.svg"
+              height={32}
+              width={32}
+              alt="github-icon"
+            />
+          </Link>
+        </div>
+
+        {/* === MY OLD PERSONAL PAGE === */}
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="https://paraketsova.github.io/">
             <Image
@@ -157,7 +182,6 @@ export default function Projects () {
             <p className={utilStyles.titleProject}>Old personal page</p>
           </Link>
           <p className={utilStyles.projectDescription}><b>CSS HTML</b></p>
-          <p className={utilStyles.projectDescription}>Individual assignment</p>
           <Link href="https://github.com/paraketsova/paraketsova.github.io">
             <Image
               priority
@@ -254,9 +278,9 @@ export default function Projects () {
         {/* === RESTful API PHP === */}
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="/documents/WEBB20-Backend-Uppgift-02-MARIIA-PARAKETSOVA.pdf">
-            <p className={utilStyles.titleProject}>RESTful API for FakeStore</p>
+            <p className={utilStyles.titleProject}>RESTful API PHP</p>
             <p className={utilStyles.projectDescription}><b>PHP</b></p>
-            <p className={utilStyles.projectDescription}>Individual assignment</p>
+            <p className={utilStyles.projectDescription}>RESTful API for fake Store</p>
           </Link>
           <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/RESTful_API_php">
             <Image
