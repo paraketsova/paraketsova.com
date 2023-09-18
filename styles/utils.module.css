@@ -18,6 +18,11 @@
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
+  text-decoration: none;
+}
+
+.headingLg:focus, .headingLg:hover, .headingLg:visited, .headingLg:link, .headingLg:active {
+  text-decoration: none;
 }
 
 .headingMd {
@@ -96,6 +101,7 @@
   padding-bottom: 0;
   font-size: 0.9em;
 }
+
 .projectLink {
   text-decoration: none;
   color: rebeccapurple;

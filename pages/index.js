@@ -75,8 +75,8 @@ export default function Home ({ allPostsData }) {
       </section>
 
       <section className={`${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>My previous projects</h2>
         <Link href={`/my-projects`} className={utilStyles.headingLg}>
+          <h2 className={utilStyles.headingLg}>My previous projects</h2>
           <Image
             priority
             src="/images/icons8-coding-64.png"
