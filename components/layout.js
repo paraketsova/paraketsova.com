@@ -7,7 +7,7 @@ import Link from 'next/link';
 const name = 'Mariia Paraketsova';
 export const siteTitle = 'paraketsova';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, myHobby }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,6 +25,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+
       <header className={styles.header}>
         {home ? (
           <>
@@ -39,23 +40,23 @@ export default function Layout({ children, home }) {
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
-          <>
-            <Link href="/">
-              <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt=""
-              />
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
+            <>
+              <Link href="/">
+                <Image
+                  priority
+                  src={myHobby ? "/images/profile-pono.jpg" : "/images/profile.jpg"}
+                  className={utilStyles.borderCircle}
+                  height={108}
+                  width={108}
+                  alt=""
+                />
               </Link>
-            </h2>
-          </>
+              <h2 className={utilStyles.headingLg}>
+                <Link href="/" className={utilStyles.colorInherit}>
+                  {name}
+                </Link>
+              </h2>
+            </>
         )}
       </header>
       <main>{children}</main>

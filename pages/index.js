@@ -1,21 +1,10 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
-import Date from '../components/date';
 import Image from 'next/image';
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-}
-
-export default function Home ({ allPostsData }) {
+export default function Home () {
   return (
     <Layout home>
       <Head>
@@ -85,21 +74,28 @@ export default function Home ({ allPostsData }) {
             alt="github-icon"
           />
         </Link>
-      </section>
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>My news</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
+        <Link href={`/birthday-quiz`} className={utilStyles.headingLg}>
+          <h2 className={utilStyles.headingLg}>My new project</h2>
+          <Image
+            priority
+            src="/images/icons8-birthday-64.png"
+            height={64}
+            width={64}
+            alt="birthday-quiz-icon"
+          />
+        </Link>
+
+        <Link href={`/my-hobby`} className={utilStyles.headingLg}>
+          <h2 className={utilStyles.headingLg}>My hobby - Miniature painting</h2>
+          <Image
+            priority
+            src="/images/icons8-brush-64.png"
+            height={64}
+            width={64}
+            alt="brush-icon"
+          />
+        </Link>
       </section>
 
       <p className={utilStyles.icons8Link}>icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>

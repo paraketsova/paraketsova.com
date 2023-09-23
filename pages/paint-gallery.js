@@ -38,9 +38,9 @@ const imageGallery = gallery.map((src) => (
 ));
 
 
-export default function GalleryPage () {
+export default function galleryPage () {
   return (
-    <Layout home>
+    <Layout galleryPage>
       <section className={utilStyles.headingXl}>
         <p>My gallery</p>
       </section>

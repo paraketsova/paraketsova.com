@@ -1,22 +1,11 @@
-import Head from 'next/head';
 import Layout, from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Image from 'next/image';
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-}
-
 export default function Projects () {
   return (
-    <Layout home>
+    <Layout myprojects>
       <section className={utilStyles.headingXl}>
         <p>My previous projects</p>
       </section>
@@ -310,18 +299,6 @@ export default function Projects () {
         </div>
       </section>
 
-      <section>
-        <Link href="/">
-          {/*← Back to home*/}
-          <Image
-            priority
-            src="/images/icons8-home.svg"
-            height={50}
-            width={50}
-            alt="Back to home"
-          />
-        </Link>
-      </section>
     </Layout>
   );
 }
