@@ -10,14 +10,31 @@ export default function Projects () {
         <p>My previous projects</p>
       </section>
       <section className={utilStyles.headingMd}>
+        <p>Over the years, I worked on several small apps and websites, and participated in a few open-source projects. </p>
         <p>
-          Most of them were made while studying at Nackademin YH and are individual or group projects created in JavaScript, Node.js, PHP, Angular, TypeScript, C#.
+          Some of them were made while studying at Nackademin YH and are individual or group projects created in JavaScript, Node.js, PHP, Angular, TypeScript, C#.
         </p>
         <p>Projects have links to online pages, projects' descriptions and repositories on GitHub.</p>
       </section>
 
       {/* === PROJECTS FOR DEMONSTRATION === */}
       <section className={utilStyles.projectsCards}>
+        {/* === MIDLIBRARY === */}
+        <div className={utilStyles.projectItem}>
+          <Link className={utilStyles.projectLink} href="https://midlibrary.io/">
+            <Image
+              priority
+              src="/images/midlib.svg"
+              height={30}
+              width={30}
+              alt="midlibrary-icon"
+            />
+            <p className={utilStyles.titleProject}>Midlibrary</p>
+          </Link>
+          <p className={utilStyles.projectDescription}><b>JavaScript, HTML, CSS, PHP</b></p>
+          <p className={utilStyles.projectDescription}><b>Collection of hand-picked Midjourney Styles and a Midjourney Guide</b></p>
+        </div>
+
         {/* === DEGREE PROJECT === */}
         <div className={utilStyles.projectItem}>
           <Link className={utilStyles.projectLink} href="https://docs.google.com/document/d/e/2PACX-1vRNNVipVs9_Uv2qFufNKixW7sy0eX23U3B2j1SEa0wXd3pPDjdttWfvrIKVAxbkJqHx-TZndSuaKFUF/pub">
@@ -198,12 +215,12 @@ export default function Projects () {
           </Link>
         </div>
 
-        {/* === cats and doge webshop === */}
+        {/* === giant-squid-bingo === */}
         <div className={utilStyles.projectItem}>
-          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/mern-catsanddogs">
-            <p className={utilStyles.titleProject}>Cats and Dogs</p>
-            <p className={utilStyles.projectDescription}><b>MERN Full-Stack Webshop</b></p>
-            <p className={utilStyles.projectDescription}>Group assignment</p>
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/giant-squid-bingo">
+            <p className={utilStyles.titleProject}>Squid-bingo</p>
+            <p className={utilStyles.projectDescription}><b>JavaScript</b></p>
+            <p className={utilStyles.projectDescription}>Programming test</p>
             <Image
               priority
               src="/images/icons8-github.svg"
@@ -214,12 +231,12 @@ export default function Projects () {
           </Link>
         </div>
 
-        {/* === giant-squid-bingo === */}
+        {/* === cats and doge webshop === */}
         <div className={utilStyles.projectItem}>
-          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/giant-squid-bingo">
-            <p className={utilStyles.titleProject}>Squid-bingo</p>
-            <p className={utilStyles.projectDescription}><b>JavaScript</b></p>
-            <p className={utilStyles.projectDescription}>Programming test</p>
+          <Link className={utilStyles.projectLink} href="https://github.com/paraketsova/mern-catsanddogs">
+            <p className={utilStyles.titleProject}>Cats and Dogs</p>
+            <p className={utilStyles.projectDescription}><b>MERN Full-Stack Webshop</b></p>
+            <p className={utilStyles.projectDescription}>Group assignment</p>
             <Image
               priority
               src="/images/icons8-github.svg"

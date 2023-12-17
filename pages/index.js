@@ -15,13 +15,13 @@ export default function Home () {
           Hi! My name is Mariia. I live in Stockholm and I am a <b>Fullstack Web Developer</b> with Frontend focus. Now I’m looking for a permanent job position.
         </p>
         <p>
+          I work as a volunteer web developer on <a href='https://midlibrary.io/'>Midlibrary</a> a non-profit educational initiative run by a group of dedicated Midjourney enthusiasts and volunteers.
+          I also participate in a small-scale <a href="https://github.com/clbn/freefeed-delta">open-source </a> social network <a href="https://gamma.freefeed.net/">FreeFeed.net.</a>
+        </p>
+        <p>
           I have <a href="/documents/Examensbevis-mariia-paraketsova-webbutvecklare-fullstack-open-source.pdf">graduated </a>
           from <a href="https://nackademin.se/utbildningar/webbutvecklare-fullstack-open-source/">Nackademin YH</a> (Full Stack Web Development)
           and finished my 6-month internship as a software developer in <a href="https://docs.google.com/document/d/e/2PACX-1vRNNVipVs9_Uv2qFufNKixW7sy0eX23U3B2j1SEa0wXd3pPDjdttWfvrIKVAxbkJqHx-TZndSuaKFUF/pub">Scania</a>.
-        </p>
-        <p>
-          I work as a volunteer web developer on a a small-scale <a href="https://github.com/clbn/freefeed-delta">open-source </a>
-          social network <a href="https://gamma.freefeed.net/">FreeFeed.net.</a>
         </p>
         <p>
           Also, before switching to web development, I got an Engineer’s degree in Chemical Technology, and I have a few years
@@ -75,8 +75,19 @@ export default function Home () {
           />
         </Link>
 
+        <Link href={`/midlibrary`} className={utilStyles.headingLg}>
+          <h2 className={utilStyles.headingLg}>Midlibrary</h2>
+          <Image
+            priority
+            src="/images/midlib.svg"
+            height={50}
+            width={50}
+            alt="midlibrary+icon"
+          />
+        </Link>
+
         <Link href={`/birthday-quiz`} className={utilStyles.headingLg}>
-          <h2 className={utilStyles.headingLg}>My new project</h2>
+          <h2 className={utilStyles.headingLg}>Birthday Quiz game</h2>
           <Image
             priority
             src="/images/icons8-birthday-64.png"

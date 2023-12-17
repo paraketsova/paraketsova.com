@@ -7,14 +7,11 @@ export default function BirthdayQuiz () {
   return (
     <Layout birthdayQuiz>
       <section className={utilStyles.headingXl}>
-        <p>My new project - Birthday Quiz game</p>
+        <p>Birthday Quiz game</p>
       </section>
       <section className={utilStyles.headingMd}>
         <p>
           Here is my new project - Birthday Quiz. The game is a chain of mathematical riddles that will lead the child to the location of his birthday present. Now it's underway.
-        </p>
-        <p>
-          Currently it only works with my son's data, but I plan to make it more universal.
         </p>
         <p>
           It will be accessible to children of different ages and will be available in English, Russian and Swedish and will, depending on the age of the kids, offer them the appropriate level of challenges.
